@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THV Mobile - Nơi mua sắm điện thoại, laptop, phụ kiện uy tín giá rẻ.</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/ed0bd4ca6e.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- icon facebook -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./src/style/style.css">
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+</head>
+
+<body>
+    <header>
+        <div class="heading">
+            <div class="heading-logoban">
+                <a class="heading-logo" href="#">
+                    <img src="./src/img/THV-removebg-cut.png" alt="">
+                </a>
+            </div>
+            <div class="heading-func">
+                <div class="heading-left">
+                    <!-- Search -->
+                    <div class="search">
+                        <span class="search-icon"><i class="fa fa-search"></i></span>
+                        <input type="search" id="search" placeholder="Search..." />
+                    </div>
+                </div>
+                <!-- icon -->
+                <div class="heading-right">
+                    <div class="heading-mobile" title="Điện Thoại">
+                        <i class="glyphicon glyphicon-phone"></i>
+                        <p>MOBILE</p>
+                    </div>
+                    <div class="heading-tablet" title="Máy tính bảng">
+                        <i class="fas fa-tablet-alt"></i>
+                        <p>TABLET</p>
+                    </div>
+                    <div class="heading-pc">
+                        <i class="fas fa-laptop	" title="Máy tính"></i>
+                        <p>LAPTOP</p>
+                    </div>
+                    <div class="heading-accessory" title="Phụ kiện">
+                        <i class="fas fa-headphones	"></i>
+                        <p>ACCESSORY</p>
+
+                    </div>
+                    <div class="heading-shopping" title="Giỏ hàng">
+                        <i class="fas fa-shopping-cart"></i>
+                        <p>CART</p>
+                    </div>
+                    <div class="user" title="Người dùng">
+                        <i class="far fa-user-circle"></i>
+                        <p>USER</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Banner -->
+        <div class="banner">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="./src/img/banner1.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./src/img/banner2.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./src/img/banner3.jpg" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <!-- Video -->
+            <div class="banner-video">
+                <iframe class="banner-video1" src="https://www.youtube.com/embed/sRob_AMBFnk"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <iframe class="banner-video2" src="https://www.youtube.com/embed/iboNYtPvP7M"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+        <!-- ĐIỆN THOẠI -->
+        <!-- Hãng -->
+        <div class="category">
+            <h1>MOBILE</h1>
+            <h2 class="category-heading">Category:</h2>
+            <ul class="category-item">
+                <li>Apple</li>
+                <li>Samsung</li>
+                <li>Realme</li>
+                <li>Xiaomi</li>
+                <li>Oppo</li>
+                <li>Nokia</li>
+                <li>OnePlus</li>
+                <li>Vivo</li>
+                <li>Huwei</li>
+            </ul>
+        </div>
+        <!-- Điện thoại -->
+        <div class="item">
+            <div class="item-device">
+                <img src="./src/img/11promax.jpg" alt="">
+                <div class="information">
+                    <div class="name-device">
+                        <h3>
+                            <a href="#"> Iphone 11 Pro Max (64GB - 256GB)</a>
+                        </h3>
+                        <h4>20.950.000đ</h4>
+
+                    </div>
+
+                    <a class="item-buy" href="#">
+                        <i class="fas fa-shopping-cart"></i>Mua</a>
+
+                    <ol>
+                        <li>Tặng: Cường lực - Ốp lưng - Tai nghe</li>
+                        <li>Giảm: 100k áp dụng HSSV</li>
+                        <li>Trả góp 0%</li>
+                        <li>Bảo hành 12 tháng</li>
+                        <li>Đổi trả trong vòng 7 ngày</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="item-device">
+                <img src="./src/img/iphone11.jpg" alt="">
+                <div class="information">
+                    <div class="name-device">
+                        <h3>
+                            <a href="#"> Iphone 11 (64GB - 256GB)</a>
+                        </h3>
+                        <h4>13.590.000đ</h4>
+                    </div>
+
+                    <a class="item-buy" href="#">
+                        <i class="fas fa-shopping-cart"></i>Mua</a>
+                    </a>
+
+                    <ol>
+                        <li>Tặng: Cường lực - Ốp lưng - Tai nghe</li>
+                        <li>Giảm: 100k áp dụng HSSV</li>
+                        <li>Trả góp 0%</li>
+                        <li>Bảo hành 12 tháng</li>
+                        <li>Đổi trả trong vòng 7 ngày</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="item-device">
+                <img src="./src/img/xsmax.jpg" alt="">
+                <div class="information">
+                    <div class="name-device">
+                        <h3>
+                            <a href="#"> Iphone XS Max (64GB - 256GB)</a>
+                        </h3>
+                        <h4>11.350.000đ</h4>
+                    </div>
+
+                    <a class="item-buy" href="#">
+                        <i class="fas fa-shopping-cart"></i>Mua</a>
+                    </a>
+
+                    <ol>
+                        <li>Tặng: Cường lực - Ốp lưng - Tai nghe</li>
+                        <li>Giảm: 100k áp dụng HSSV</li>
+                        <li>Trả góp 0%</li>
+                        <li>Bảo hành 12 tháng</li>
+                        <li>Đổi trả trong vòng 7 ngày</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="item-device">
+                <img src="./src/img/redmi-k40-full.jpg" alt="">
+                <div class="information">
+                    <div class="name-device">
+                        <h3>
+                            <a href="#"> Xiaomi Redmi K40</a>
+                        </h3>
+                        <h4>7.350.000đ</h4>
+                    </div>
+
+                    <a class="item-buy" href="#">
+                        <i class="fas fa-shopping-cart"></i>Mua</a>
+                    </a>
+
+                    <ol>
+                        <li>Tặng: Cường lực - Ốp lưng - Tai nghe</li>
+                        <li>Giảm: 100k áp dụng HSSV</li>
+                        <li>Trả góp 0%</li>
+                        <li>Bảo hành 12 tháng</li>
+                        <li>Đổi trả trong vòng 7 ngày</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="item-device">
+                <img src="./src/img/iphone-12-pro-max-xanh.jpg" alt="">
+                <div class="information">
+                    <div class="name-device">
+                        <h3>
+                            <a href="#"> Iphone 12 Pro Max (128GB - 256GB - 512GB)</a>
+                        </h3>
+                        <h4>25.750.000đ</h4>
+                    </div>
+
+                    <a class="item-buy" href="#">
+                        <i class="fas fa-shopping-cart"></i>Mua</a>
+                    </a>
+
+                    <ol>
+                        <li>Tặng: Cường lực - Ốp lưng - Tai nghe</li>
+                        <li>Giảm: 100k áp dụng HSSV</li>
+                        <li>Trả góp 0%</li>
+                        <li>Bảo hành 12 tháng</li>
+                        <li>Đổi trả trong vòng 7 ngày</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="item-device">
+                <img src="./src/img/Galaxy-S22-Black-600x600.jpg" alt="">
+                <div class="information">
+                    <div class="name-device">
+                        <h3>
+                            <a href="#"> Samsung Galaxy S22 5G</a>
+                        </h3>
+                        <h4>18.990.000đ</h4>
+                    </div>
+
+                    <a class="item-buy" href="#">
+                        <i class="fas fa-shopping-cart"></i>Mua</a>
+                    </a>
+
+                    <ol>
+                        <li>Tặng: Cường lực - Ốp lưng - Tai nghe</li>
+                        <li>Giảm: 100k áp dụng HSSV</li>
+                        <li>Trả góp 0%</li>
+                        <li>Bảo hành 12 tháng</li>
+                        <li>Đổi trả trong vòng 7 ngày</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="item-device">
+                <img src="./src/img/samsung-galaxy-z-flip-3-cream-1-600x600.jpg" alt="">
+                <div class="information">
+                    <div class="name-device">
+                        <h3>
+                            <a href="#"> Samsung Galaxy Z Flip3 5G</a>
+                        </h3>
+                        <h4>17.990.000đ</h4>
+                    </div>
+
+                    <a class="item-buy" href="#">
+                        <i class="fas fa-shopping-cart"></i>Mua</a>
+                    </a>
+
+                    <ol>
+                        <li>Tặng: Cường lực - Ốp lưng - Tai nghe</li>
+                        <li>Giảm: 100k áp dụng HSSV</li>
+                        <li>Trả góp 0%</li>
+                        <li>Bảo hành 12 tháng</li>
+                        <li>Đổi trả trong vòng 7 ngày</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="item-device">
+                <img src="./src/img/realme-c35-thumb-new-600x600.jpg" alt="">
+                <div class="information">
+                    <div class="name-device">
+                        <h3>
+                            <a href="#"> Realme C35 64GB</a>
+                        </h3>
+                        <h4>4.290.000đ</h4>
+                    </div>
+
+                    <a class="item-buy" href="#">
+                        <i class="fas fa-shopping-cart"></i>Mua</a>
+                    </a>
+
+                    <ol>
+                        <li>Tặng: Cường lực - Ốp lưng - Tai nghe</li>
+                        <li>Giảm: 100k áp dụng HSSV</li>
+                        <li>Trả góp 0%</li>
+                        <li>Bảo hành 12 tháng</li>
+                        <li>Đổi trả trong vòng 7 ngày</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="item-device">
+                <img src="./src/img/oppo-find-x5-pro-den-thumb-600x600.jpg" alt="">
+                <div class="information">
+                    <div class="name-device">
+                        <h3>
+                            <a href="#"> Oppo Find X5 Pro 5G</a>
+                        </h3>
+                        <h4>32.990.000đ</h4>
+                    </div>
+
+                    <a class="item-buy" href="#">
+                        <i class="fas fa-shopping-cart"></i>Mua</a>
+                    </a>
+
+                    <ol>
+                        <li>Tặng: Cường lực - Ốp lưng - Tai nghe</li>
+                        <li>Giảm: 100k áp dụng HSSV</li>
+                        <li>Trả góp 0%</li>
+                        <li>Bảo hành 12 tháng</li>
+                        <li>Đổi trả trong vòng 7 ngày</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="item-device">
+                <img src="./src/img/nokia-g21-xanh-thumb-600x600.jpg" alt="">
+                <div class="information">
+                    <div class="name-device">
+                        <h3>
+                            <a href="#"> Nokia G21</a>
+                        </h3>
+                        <h4>4.290.000đ</h4>
+                    </div>
+
+                    <a class="item-buy" href="#">
+                        <i class="fas fa-shopping-cart"></i>Mua</a>
+                    </a>
+
+                    <ol>
+                        <li>Tặng: Cường lực - Ốp lưng - Tai nghe</li>
+                        <li>Giảm: 100k áp dụng HSSV</li>
+                        <li>Trả góp 0%</li>
+                        <li>Bảo hành 12 tháng</li>
+                        <li>Đổi trả trong vòng 7 ngày</li>
+                    </ol>
+                </div>
+            </div>
+
+        </div>
+        <!-- Xem thêm điện thoại -->
+        <div class="more-mobile">
+            <a href="#">Xem thêm điện thoại</a>
+        </div>
+        <!-- Khuyến mãi -->
+        <div class="image-slider">
+            <div class="image-item">
+                <div class="image">
+
+                    <img src="./src/img/km-1.jpg" alt="">
+
+                </div>
+            </div>
+            <div class="image-item">
+                <div class="image">
+
+                    <img src="./src/img/km2.jpg" alt="">
+
+                </div>
+            </div>
+            <div class="image-item">
+                <div class="image">
+                    <img src="./src/img/km3.jpg" alt="">
+                </div>
+            </div>
+            <div class="image-item">
+                <div class="image">
+                    <img src="./src/img/km4.webp" alt="">
+                </div>
+            </div>
+            <div class="image-item">
+                <div class="image">
+                    <img src="./src/img/km5.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="./src/JS/slick.js"></script>
+        <!-- ionicon -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <!-- LAPTOP -->
+        <!-- Hãng -->
+        <div class="category-laptop">
+            <h1>LAPTOP</h1>
+            <h2 class="category-heading-laptop">Category:</h2>
+            <ul class="category-item-laptop">
+                <li>
+                    <a href="">
+                        <img src="./src/img/Laptop/icon/logo-asus-149x40.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./src/img/Laptop/icon/logo-dell-149x40.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./src/img/Laptop/icon/logo-hp-149x40-1.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./src/img/Laptop/icon/logo-lenovo-149x40.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./src/img/Laptop/icon/logo-macbook-149x40.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./src/img/Laptop/icon/logo-msi-149x40.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./src/img/Laptop/icon/logo-surface-149x40-1.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- Laptop -->
+
+        <div class="item">
+            <div class="item-laptop">
+                <img src="./src/img/Laptop/asus-tuf-gaming-fx517zc-i5-hn077w-190322-114627-600x600.jpg" alt="">
+                <div class="information">
+                    <div class="name-device">
+                        <h3>
+                            <a href="#"> Asus TUF Gaming FX517ZC i5 12450H</a>
+                        </h3>
+                        <h4>27.990.000đ</h4>
+
+                    </div>
+
+                    <a class="item-buy" href="#">
+                        <i class="fas fa-shopping-cart"></i>Mua</a>
+
+                    <ol>
+                        <li>Tặng: Chuột, Lót chuột, Bộ vệ sinh,... </li>
+                        <li>Giảm giá lên tới 2 triệu áp dụng HSSV</li>
+                        <li>Trả góp 0%</li>
+                        <li>Bảo hành lên tới 3 năm</li>
+                        <li>Đổi trả trong vòng 7 ngày</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="item-laptop">
+                <img src="./src/img/Laptop/lenovo-gaming-legion-5-15ith6-i7-82jk00fnvn-180322-100552-600x600.jpg"
+                    alt="">
+                <div class="information">
+                    <div class="name-device">
+                        <h3>
+                            <a href="#"> Lenovo Gaming Legion 5 15ITH6 i7 11800H</a>
+                        </h3>
+                        <h4>33.990.000đ</h4>
+
+                    </div>
+
+                    <a class="item-buy" href="#">
+                        <i class="fas fa-shopping-cart"></i>Mua</a>
+
+                    <ol>
+                        <li>Tặng: Chuột, Lót chuột, Bộ vệ sinh,...</li>
+                        <li>Giảm giá lên tới 2 triệu áp dụng HSSV</li>
+                        <li>Trả góp 0%</li>
+                        <li>Bảo hành lên tới 3 năm</li>
+                        <li>Đổi trả trong vòng 7 ngày</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="item-laptop">
+                <img src="./src/img/Laptop/apple-macbook-pro-13-inch-m2-2022-xam-600x600.jpg" alt="">
+                <div class="information">
+                    <div class="name-device">
+                        <h3>
+                            <a href="#"> MacBook Pro M2 8GB/256GB</a>
+                        </h3>
+                        <h4>35.990.000đ</h4>
+
+                    </div>
+
+                    <a class="item-buy" href="#">
+                        <i class="fas fa-shopping-cart"></i>Mua</a>
+
+                    <ol>
+                        <li>Tặng: Chuột, Lót chuột, Bộ vệ sinh,...</li>
+                        <li>Giảm giá lên tới 2 triệu áp dụng HSSV</li>
+                        <li>Trả góp 0%</li>
+                        <li>Bảo hành lên tới 3 năm</li>
+                        <li>Đổi trả trong vòng 7 ngày</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="item-laptop">
+                <img src="./src/img/Laptop/dell-vostro-3510-i3-1115g4-8gb-256gb-office-h-s-600x600.jpg" alt="">
+                <div class="information">
+                    <div class="name-device">
+                        <h3>
+                            <a href="#"> Dell Vostro 3510 i3 1115G4</a>
+                        </h3>
+                        <h4>12.990.000đ</h4>
+
+                    </div>
+
+                    <a class="item-buy" href="#">
+                        <i class="fas fa-shopping-cart"></i>Mua</a>
+
+                    <ol>
+                        <li>Tặng: Chuột, Lót chuột, Bộ vệ sinh,...</li>
+                        <li>Giảm giá lên tới 2 triệu áp dụng HSSV</li>
+                        <li>Trả góp 0%</li>
+                        <li>Bảo hành lên tới 3 năm</li>
+                        <li>Đổi trả trong vòng 7 ngày</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="item-laptop">
+                <img src="./src/img/Laptop/surface-go-i5-thh00001-600x600.jpg" alt="">
+                <div class="information">
+                    <div class="name-device">
+                        <h3>
+                            <a href="#"> Surface Laptop Go i5 1035G1</a>
+                        </h3>
+                        <h4>17.990.000đ</h4>
+
+                    </div>
+
+                    <a class="item-buy" href="#">
+                        <i class="fas fa-shopping-cart"></i>Mua</a>
+
+                    <ol>
+                        <li>Tặng: Chuột, Lót chuột, Bộ vệ sinh,...</li>
+                        <li>Giảm giá lên tới 2 triệu áp dụng HSSV</li>
+                        <li>Trả góp 0%</li>
+                        <li>Bảo hành lên tới 3 năm</li>
+                        <li>Đổi trả trong vòng 7 ngày</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="item-laptop">
+                <img src="./src/img/Laptop/msi-gaming-gf63-thin-10sc-i7-10750h-8gb-512gb-600x600.jpg" alt="">
+                <div class="information">
+                    <div class="name-device">
+                        <h3>
+                            <a href="#"> MSI Gaming GF63 Thin 10SC i7 10750H</a>
+                        </h3>
+                        <h4>21.990.000đ</h4>
+
+                    </div>
+
+                    <a class="item-buy" href="#">
+                        <i class="fas fa-shopping-cart"></i>Mua</a>
+
+                    <ol>
+                        <li>Tặng: Chuột, Lót chuột, Bộ vệ sinh,...</li>
+                        <li>Giảm giá lên tới 2 triệu áp dụng HSSV</li>
+                        <li>Trả góp 0%</li>
+                        <li>Bảo hành lên tới 3 năm</li>
+                        <li>Đổi trả trong vòng 7 ngày</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="item-laptop">
+                <img src="./src/img/Laptop/hp-elitebook-x360-1040-g8-i7-3g1h4pa-18-600x600.jpg" alt="">
+                <div class="information">
+                    <div class="name-device">
+                        <h3>
+                            <a href="#"> HP EliteBook X360 1040 G8 i7 1165G7</a>
+                        </h3>
+                        <h4>49.590.000đ</h4>
+
+                    </div>
+
+                    <a class="item-buy" href="#">
+                        <i class="fas fa-shopping-cart"></i>Mua</a>
+
+                    <ol>
+                        <li>Tặng: Chuột, Lót chuột, Bộ vệ sinh,...</li>
+                        <li>Giảm giá lên tới 2 triệu áp dụng HSSV</li>
+                        <li>Trả góp 0%</li>
+                        <li>Bảo hành lên tới 3 năm</li>
+                        <li>Đổi trả trong vòng 7 ngày</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <!-- Xem thêm -->
+        <div class="more-mobile">
+            <a href="#">Xem thêm Laptop</a>
+        </div>
+        <!-- Khuyến mãi -->
+        <div class="image-slider-2">
+            <div class="image-item-2">
+                <div class="image-2">
+
+                    <img src="./src/img/km2/18-aseri-720-220-720x220.png" alt="">
+
+                </div>
+            </div>
+            <div class="image-item-2">
+                <div class="image-2">
+
+                    <img src="./src/img/km2/18-w4-720-220-720x220.png" alt="">
+
+                </div>
+            </div>
+            <div class="image-item-2">
+                <div class="image-2">
+                    <img src="./src/img/km2/720-220-720x220-216.png" alt="">
+                </div>
+            </div>
+            <div class="image-item-2">
+                <div class="image-2">
+                    <img src="./src/img/km2/720-220-720x220-225.png" alt="">
+                </div>
+            </div>
+            <div class="image-item-2">
+                <div class="image-2">
+                    <img src="./src/img/km2/720-220-720x220-75.png" alt="">
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="./src/JS/slick2.js"></script>
+        <!-- Tablet -->
+        <!-- Hãng -->
+        <div class="category-laptop">
+            <h1>TABLET</h1>
+            <h2 class="category-heading-laptop">Category:</h2>
+            <ul class="category-item-laptop">
+                <li>
+                    <a href="">
+                        <img src="./src/img/Tablet/icon/iPad-(Apple)522-b_4.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./src/img/Tablet/icon/samsungnew-220x48-3.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./src/img/Tablet/icon/Huawei522-b_4.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./src/img/Tablet/icon/Lenovo522-b_6.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./src/img/Tablet/icon/Masstel522-b_7.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./src/img/Tablet/icon/Tablet-xiaomi-220x48-1.png" alt="">
+                    </a>
+                </li>
+                </ul>
+        </div>
+        <div class="item">
+
+        </div>
+        <!-- Phụ kiện -->
+        <!-- Hãng -->
+        <div class="category-laptop">
+            <div>
+                <h1>ACCESSORY</h1>
+                <h2 class="category-heading-laptop">Category:</h2>
+                <ul class="category-item-accessory">
+                    <li>
+                        <a href="">
+                            <img src="./src/img/icon/phu-kien-apple.png" alt="" style="height:120px ;width: 120px;">
+                            Phụ kiện Iphone
+                        </a>
+                    </li>
+                    <li><a href="">
+                            <img src="./src/img/icon/5-Pinsạcdựphòng-120x120.png" alt="">
+                            Sạc dự phòng
+                        </a></li>
+                    <li>
+                        <a href="">
+                            <img src="./src/img/icon/10-Cápsạcchuyểndổi-120x120.png" alt="">
+                            Sạc, cáp
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./src/img/icon/21-Tainghe-120x120.png" alt="">
+                            Tai nghe
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./src/img/icon/22-Loa2-120x120.png" alt="">
+                            Loa
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./src/img/icon/thongminh-120x120.png" alt="">
+
+                            Thiết bị thông minh</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Phụ kiện Iphone -->
+        <div class="banner-accessory">
+            <img width="1480px" src="./src/img/banner-apple.png" alt="">
+        </div>
+        <div class="item">
+            <div class="item-device">
+                <img src="./src/img/11promax.jpg" alt="">
+                <div class="information">
+                    <div class="name-device">
+                        <h3>
+                            <a href="#"> Iphone 11 Pro Max (64GB - 256GB)</a>
+                        </h3>
+                        <h4>20.950.000đ</h4>
+
+                    </div>
+
+                    <a class="item-buy" href="#">
+                        <i class="fas fa-shopping-cart"></i>Mua</a>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footing">
+            <!-- Hệ thống cửa hàng -->
+            <div class="footing-diachi">
+                <span class="icon-diachi"> <i class="fas fa-map-marker-alt"></i>
+                    <strong>HỆ THỐNG CỬA HÀNG</strong>
+                </span>
+                <h4>Hà Nội</h4>
+                <p>120 Thái Hà, Q. Đống Đa <br>
+                    Điện thoại: 097.120.6688 - 0969.120.120</p>
+                <h4>Hồ Chí Minh</h4>
+                <p>123 Trần Quang Khải, Q.1 <br>
+                    Điện thoại: 0965.123.123 - 0969.520.520</p>
+            </div>
+            <!-- Quy định chính sách -->
+            <div class="footing-quydinh">
+                <span class="icon-quydinh"> <i class="far fa-question-circle"></i>
+                    <strong>QUY ĐỊNH - CHÍNH SÁCH</strong>
+                </span>
+                <ul class="footing-item">
+                    <li><a href="#">Chính sách bảo hành</a></li>
+                    <li><a href="#">Chính sách vận chuyển</a></li>
+                    <li><a href="#">Chính sách đổi trả hàng</a></li>
+                    <li><a href="#">Chính sách bảo mật thông tin</a></li>
+                    <li><a href="#">Hướng dẫn thanh toán</a></li>
+                    <li><a href="#">Hướng dẫn mua hàng Online</a></li>
+                    <li><a href="#">Dịch vụ Ship COD Toàn quốc</a></li>
+                    <li><a href="#">Chính sách đại lý linh, phụ kiện</a></li>
+                </ul>
+            </div>
+            <!-- Liên kết -->
+            <div class="footing-link">
+                <img class="link-dmca" src="./src/img/dmca_logo.png" alt="">
+                <img class="link-notification" src="./src/img/logoSaleNoti.png" alt="">
+                <div class="link-fb">
+                    <a href="https://www.facebook.com/ThinhLe1308" class="fa fa-facebook"></p>
+                    </a>
+                    <a class="fb-name" href="https://www.facebook.com/ThinhLe1308">Facebook</a>
+                </div>
+                <div class="link-youtube">
+                    <a href="https://www.youtube.com/channel/UCwUrOlUydWheoNJQhY-QM_Q" class="fa fa-youtube"></a>
+                    <a class="yt-name" href="https://www.youtube.com/channel/UCwUrOlUydWheoNJQhY-QM_Q">YouTube</a>
+                </div>
+            </div>
+            <!-- Thanh toán -->
+            <div class="footing-pay">
+                <span class="icon-pay">
+                    <i class="far fa-credit-card"></i>
+                    <strong>PHƯƠNG THỨC THANH TOÁN :</strong> <br>
+                </span>
+                <img src="./src/img/zalopay-logo.webp" alt="">
+                <img src="./src/img/alepay-logo.webp" alt="">
+                <img src="./src/img/kredivo-logo.webp" alt="">
+                <img src="./src/img/moca-logo.webp" alt="">
+                <img src="./src/img/mpos-logo.webp" alt="">
+                <img src="./src/img/onepay-logo.webp" alt="">
+                <img src="./src/img/vnpay-logo.webp" alt="">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
