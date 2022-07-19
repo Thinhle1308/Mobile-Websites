@@ -13,7 +13,13 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
-
+.star-rating {
+    display: flex;
+    align-items: flex-end;
+}
+.star-rating i{
+    color: rgb(250, 101, 46);
+}
 
 /* HEADER */
 .heading {
@@ -289,7 +295,7 @@ iframe.banner-video2 {
 
 .information {
     display: grid;
-    grid-template-rows: 100px 60px 130px;
+    grid-template-rows: 100px 60px 170px;
     margin-left: 5px;
 }
 
@@ -475,6 +481,16 @@ iframe.banner-video2 {
     transition: all 400ms ease-in-out;
     cursor: pointer;
 }
+/* Promotion Masstel */
+.promotion-masstel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+.promotion-masstel img{
+    height: 250px;
+}
 /* Phụ kiện */
 .category-item-accessory {
     display: flex;
@@ -511,6 +527,8 @@ iframe.banner-video2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 40px 0;
+
 }
 /* FOOTER */
 footer {
