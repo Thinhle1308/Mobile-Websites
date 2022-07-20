@@ -27,6 +27,13 @@
     <link rel="stylesheet" href="./src/style/style.css">
     <!-- slick -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<!-- search -->
+<link rel="stylesheet"
+            href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet"
+            href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css" />
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
 
 </head>
 
@@ -34,7 +41,7 @@
     <header>
         <div class="heading">
             <div class="heading-logoban">
-                <a class="heading-logo" href="#">
+                <a class="heading-logo" href="./index.html">
                     <img src="./src/img/THV-removebg-cut.png" alt="">
                 </a>
             </div>
@@ -46,6 +53,7 @@
                         <input type="search" id="search" placeholder="Search..." />
                     </div>
                 </div>
+               <script src="./src/JS/search.js"></script>
                 <!-- icon -->
                 <div class="heading-right">
                     <div class="heading-mobile" title="Điện Thoại">
@@ -123,21 +131,21 @@
         <div class="category">
             <h1>MOBILE</h1>
             <h2 class="category-heading">Category:</h2>
-            <ul class="category-item">
-                <li>Apple</li>
-                <li>Samsung</li>
-                <li>Realme</li>
-                <li>Xiaomi</li>
-                <li>Oppo</li>
-                <li>Nokia</li>
-                <li>OnePlus</li>
-                <li>Vivo</li>
-                <li>Huwei</li>
+            <ul class="category-list">
+                <li class="category-item">Apple</li>
+                <li  class="category-item">Samsung</li>
+                <li  class="category-item">Realme</li>
+                <li class="category-item">Xiaomi</li>
+                <li class="category-item">Oppo</li>
+                <li class="category-item">Nokia</li>
+                <li class="category-item">OnePlus</li>
+                <li class="category-item">Vivo</li>
+                <li class="category-item">Huwei</li>
             </ul>
         </div>
         <!-- Điện thoại -->
         <div class="item">
-            <div class="item-device">
+            <div class="item-device item-search">
                 <img src="./src/img/11promax.jpg" alt="">
                 <div class="information">
                     <div class="name-device">
@@ -170,7 +178,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item-device">
+            <div class="item-device item-search">
                 <img src="./src/img/iphone11.jpg" alt="">
                 <div class="information">
                     <div class="name-device">
@@ -203,7 +211,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item-device">
+            <div class="item-device item-search">
                 <img src="./src/img/xsmax.jpg" alt="">
                 <div class="information">
                     <div class="name-device">
@@ -236,7 +244,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item-device">
+            <div class="item-device item-search">
                 <img src="./src/img/redmi-k40-full.jpg" alt="">
                 <div class="information">
                     <div class="name-device">
@@ -269,7 +277,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item-device">
+            <div class="item-device item-search">
                 <img src="./src/img/iphone-12-pro-max-xanh.jpg" alt="">
                 <div class="information">
                     <div class="name-device">
@@ -302,7 +310,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item-device">
+            <div class="item-device item-search">
                 <img src="./src/img/Galaxy-S22-Black-600x600.jpg" alt="">
                 <div class="information">
                     <div class="name-device">
@@ -335,7 +343,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item-device">
+            <div class="item-device item-search">
                 <img src="./src/img/samsung-galaxy-z-flip-3-cream-1-600x600.jpg" alt="">
                 <div class="information">
                     <div class="name-device">
@@ -368,7 +376,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item-device">
+            <div class="item-device item-search">
                 <img src="./src/img/realme-c35-thumb-new-600x600.jpg" alt="">
                 <div class="information">
                     <div class="name-device">
@@ -401,7 +409,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item-device">
+            <div class="item-device item-search">
                 <img src="./src/img/oppo-find-x5-pro-den-thumb-600x600.jpg" alt="">
                 <div class="information">
                     <div class="name-device">
@@ -433,7 +441,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item-device">
+            <div class="item-device item-search">
                 <img src="./src/img/nokia-g21-xanh-thumb-600x600.jpg" alt="">
                 <div class="information">
                     <div class="name-device">
@@ -558,7 +566,7 @@
         <!-- Laptop -->
 
         <div class="item">
-            <div class="item-laptop">
+            <div class="item-laptop item-search">
                 <img src="./src/img/Laptop/asus-tuf-gaming-fx517zc-i5-hn077w-190322-114627-600x600.jpg" alt="">
                 <div class="information">
                     <div class="name-device">
@@ -591,7 +599,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item-laptop">
+            <div class="item-laptop item-search">
                 <img src="./src/img/Laptop/lenovo-gaming-legion-5-15ith6-i7-82jk00fnvn-180322-100552-600x600.jpg"
                     alt="">
                 <div class="information">
@@ -625,7 +633,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item-laptop">
+            <div class="item-laptop item-search">
                 <img src="./src/img/Laptop/apple-macbook-pro-13-inch-m2-2022-xam-600x600.jpg" alt="">
                 <div class="information">
                     <div class="name-device">
@@ -658,7 +666,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item-laptop">
+            <div class="item-laptop item-search">
                 <img src="./src/img/Laptop/dell-vostro-3510-i3-1115g4-8gb-256gb-office-h-s-600x600.jpg" alt="">
                 <div class="information">
                     <div class="name-device">
@@ -691,7 +699,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item-laptop">
+            <div class="item-laptop item-search">
                 <img src="./src/img/Laptop/surface-go-i5-thh00001-600x600.jpg" alt="">
                 <div class="information">
                     <div class="name-device">
@@ -724,7 +732,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item-laptop">
+            <div class="item-laptop item-search">
                 <img src="./src/img/Laptop/msi-gaming-gf63-thin-10sc-i7-10750h-8gb-512gb-600x600.jpg" alt="">
                 <div class="information">
                     <div class="name-device">
@@ -757,7 +765,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item-laptop">
+            <div class="item-laptop item-search">
                 <img src="./src/img/Laptop/hp-elitebook-x360-1040-g8-i7-3g1h4pa-18-600x600.jpg" alt="">
                 <div class="information">
                     <div class="name-device">
@@ -871,7 +879,7 @@
                 </ul>
         </div>
         <div class="item">
-            <div class="item-device">
+            <div class="item-device item-search">
                 <img src="./src/img/Tablet/ipad-pro-2021-11-inch-silver-600x600.jpg" alt="">
                 <div class="information">
                     <div class="name-device">
@@ -904,7 +912,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item-device">
+            <div class="item-device item-search">
                 <img src="./src/img/Tablet/Samsung-Galaxy-Tab-s8-white-thumb-1-600x600.jpg" alt="">
                 <div class="information">
                     <div class="name-device">
@@ -937,7 +945,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item-device">
+            <div class="item-device item-search">
                 <img src="./src/img/Tablet/huawei-matepad-11-9-1-600x600.jpg" alt="">
                 <div class="information">
                     <div class="name-device">
@@ -970,7 +978,7 @@
                     </div>                    
                 </div>
             </div>
-            <div class="item-device">
+            <div class="item-device item-search">
                 <img src="./src/img/Tablet/lenovo-tab-p11-plus-2-600x600.jpg" alt="">
                 <div class="information">
                     <div class="name-device">
@@ -1003,7 +1011,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item-device">
+            <div class="item-device item-search">
                 <img src="./src/img/Tablet/masstel-tab-10s-đen-1-1-2-3-4-600x600.jpg" alt="">
                 <div class="information">
                     <div class="name-device">
@@ -1035,7 +1043,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item-device">
+            <div class="item-device item-search">
                 <img src="./src/img/Tablet/xiaomi-pad-5-grey-600x600.jpg" alt="">
                 <div class="information">
                     <div class="name-device">
@@ -1124,7 +1132,7 @@
             <img width="1480px" src="./src/img/banner-apple.png" alt="">
         </div>
         <div class="item">
-            <div class="item-device">
+            <div class="item-device item-search">
                 <img src="./src/img/11promax.jpg" alt="">
                 <div class="information">
                     <div class="name-device">
@@ -1212,5 +1220,4 @@
         </div>
     </footer>
 </body>
-</script>
 </html>

@@ -245,7 +245,7 @@ iframe.banner-video2 {
     font-weight: bold;
 }
 
-.category-item {
+.category-list {
     display: flex;
     gap: 0 50px;
     list-style: none;
@@ -255,13 +255,13 @@ iframe.banner-video2 {
     align-items: center;
 }
 
-.category-item li {
+.category-item{
     padding: 15px 20px;
     cursor: pointer;
     border-radius: 5px;
 }
 
-.category-item li:hover {
+.category-item:hover {
     color: #fff;
     background-color: var(--background-color);
 }
