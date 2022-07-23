@@ -437,7 +437,7 @@ iframe.banner-video2 {
 
 .category-item-laptop {
     display: flex;
-    gap: 0 50px;
+    gap: 0 30px;
     list-style: none;
     font-size: 20px;
     line-height: 20px;
@@ -654,4 +654,8 @@ footer {
     color: var(--background-color);
     font-size: 18px;
     text-shadow: 0.5px 0.5px 0.5px rgb(243, 141, 158);
+}
+/* reponsive */
+[class*="col-"]{
+    width: 100%;
 }
