@@ -1,0 +1,26 @@
+:root {
+    --background-color: rgb(216, 127, 141);
+}
+*{
+    margin: 0;
+}
+*::selection {
+    background-color: violet;
+    color: aquamarine;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navbar{
+    background-image: linear-gradient(bisque, rgb(216, 127, 141));
+    height: 50px;
+    text-decoration: none;
+    padding: 40px 40px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
