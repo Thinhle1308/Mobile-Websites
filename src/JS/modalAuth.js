@@ -3,7 +3,7 @@
 
 
 const user = document.querySelector(".user");
-const userModal = document.querySelector(".user-moder")
+const userModal = document.querySelector(".user-modal")
 
 user.addEventListener("click", () => {
     if (userModal.classList.contains("show")) {

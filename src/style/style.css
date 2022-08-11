@@ -1,3 +1,9 @@
+    * {
+        padding: 0; 
+        margin: 0; 
+         box-sizing: border-box;
+    }
+
     :root {
         --background-color: rgb(216, 127, 141);
     }
@@ -144,68 +150,92 @@
         color: #fff;
         margin-top: 10px;
         text-shadow: 3px 3px 2px rgb(243, 141, 158);
-
+        text-decoration: none;
     }
 
     .heading-right p {
         font-size: 16px;
         margin-bottom: 5px;
+        text-decoration: none;
+        color: #fff;
+    }   
+    .heading-right a {
+        text-decoration: none;
+        color: #fff;
     }
-
-    .heading-mobile {
+    .heading-mobile a{
+        text-decoration: none;
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 12px;
     }
 
-    .heading-tablet {
+    .heading-tablet a{
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 12px;
+        text-decoration: none;
+
     }
 
-    .heading-pc {
+    .heading-pc a{
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 12px;
+        text-decoration: none;
     }
 
-    .heading-accessory {
+    .heading-accessory a{
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 12px;
+        text-decoration: none;
     }
 
-    .heading-shopping {
+    .heading-shopping a{
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 12px;
+        text-decoration: none;
     }
 
-    .user {
+    .user a{
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 12px;
+        text-decoration: none;
     }
 
-    .user:hover,
-    .heading-mobile:hover,
-    .heading-tablet:hover,
-    .heading-pc:hover,
-    .heading-accessory:hover,
-    .heading-shopping:hover {
+    .user a:hover,
+    .heading-mobile a:hover,
+    .heading-tablet a:hover,
+    .heading-pc a:hover,
+    .heading-accessory a:hover,
+    .heading-shopping a:hover {
         color: aquamarine;
         cursor: pointer;
+        text-decoration: none;
         /* text-shadow: 3px 3px 2px #fff; */
         /* transform: translateY(-5px); */
     }
-
+    .user p:hover,
+    .heading-mobile p:hover,
+    .heading-tablet p:hover,
+    .heading-pc p:hover,
+    .heading-accessory p:hover,
+    .heading-shopping p:hover {
+        color: aquamarine;
+        cursor: pointer;
+        text-decoration: none;
+        /* text-shadow: 3px 3px 2px #fff; */
+        /* transform: translateY(-5px); */
+    }
     /* HEADING BANNER */
     .banner {
         display: flex;
@@ -357,6 +387,7 @@
         font-size: 20px;
         margin: 30px 700px;
         cursor: pointer;
+        text-decoration: none;
     }
 
     .more-mobile a {
@@ -367,6 +398,7 @@
 
     .more-mobile:hover {
         background-color: var(--background-color);
+        text-decoration: none;
     }
 
     .more-mobile:hover a {
@@ -672,6 +704,7 @@
 
     .link-notification {
         height: 50px;
+        text-decoration: none;
     }
 
     .link-fb {
@@ -681,17 +714,20 @@
         margin-top: 15px;
     }
 
-    .fa-facebook {
+    .fa.fa-facebook {
         background: #3B5998;
         color: white;
         padding: 10px;
-        font-size: 25px;
+        font-size: 24px;
         text-align: center;
         text-decoration: none;
         margin: 5px 2px;
         height: 40px;
         width: 40px;
         border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .fb-name {
@@ -705,17 +741,20 @@
         margin: 15px 0 0 15px;
     }
 
-    .fa-youtube {
+    .fa.fa-youtube {
         background: red;
         color: #fff;
         padding: 7px;
-        font-size: 25px;
         text-align: center;
         text-decoration: none;
         margin: 5px 2px;
         height: 40px;
         width: 40px;
         border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
     }
 
     .yt-name {
@@ -754,28 +793,69 @@
         position: relative;
     }
 
-    .user-moder {
+    .user-modal {
         position: absolute;
         display: none;
-        right: 10px;
+        right: 30px;
         width: 130px;
         padding: 20px 10px;
         box-shadow: -1px 1px 12px 5px #eaada6;
+        border-radius: 5px;
         background-color: #fff;
-        top: 100px;
+        top: 105px;
         font-size: 18px;
         color: black;
         text-decoration: none;
         cursor: pointer;
         line-height: 40px;
-       font-weight: normal;
-        font-family:'Times New Roman', Times, serif;
+        font-weight: normal;
+        font-family: 'Times New Roman', Times, serif;
     }
-    .user-moder li:hover {
+
+    .user-modal li:hover {
         background-color: lightgrey;
     }
-.user-moder a {
+
+    .user-modal a {
         color: black;
         text-decoration: none;
+        text-shadow: none;
+    }
+
+    .heading-accessory {
+        position: relative;
+    }
+
+    .accessory-modal {
+        position: absolute;
+        display: none;
+        right: 30px;
+        width: 130px;
+        padding: 20px 10px;
+        box-shadow: -1px 1px 12px 5px #eaada6;
+        border-radius: 5px;
+        background-color: #fff;
+        top: 105px;
+        font-size: 18px;
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+        line-height: 40px;
+        font-weight: normal;
+        font-family: 'Times New Roman', Times, serif;
+    } 
+
+    .heading-accessory:hover~.accessory-modal {
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr;
+        width: auto;
+
+    } 
+
+    .accessory-modal li:hover{
+    background-color: lightgray;
+} 
+    .accessory-modal a {
+        color: black;
         text-shadow: none;
     }

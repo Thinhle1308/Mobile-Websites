@@ -49,6 +49,7 @@ header .navbar {
     /* text-align: center; */
     z-index: 2;
     width: 600px;
+    margin-bottom: 10px;
 }
 
 .login_container_child {
@@ -56,7 +57,7 @@ header .navbar {
     background: #fff;
     border-radius: 25px;
     max-width: calc(100vw - 32px);
-    min-height: 640px;
+    min-height: 600px;
     padding: 48px 20px;
     position: relative;
     width: var(--width);
@@ -72,33 +73,25 @@ form {
 }
 .login_header h1{
      font-size: 100px;
-     margin-bottom: 20px;
+     margin-bottom: 5px;
+     margin-top: -50px;
      text-align: center;
      padding-right: 40px;
      font-family: cursive;
      color: rgb(197, 99, 201);
 }
 .input {
-    font-size: 25px;
+    font-size: 22px;
     font-family: cursive;
-    line-height: 50px;
+    line-height: 40px;
     padding-left: 60px;
 }
 .box-input {
-    font-size: 20px;
+    font-size: 18px;
     font-family: cursive;
     width: 450px;
-    height: 40px;
+    height: 30px;
     border-radius: 8px;
-}
-.input-rf {
-    display: flex;
-    font-size: 20px;
-    line-height: 50px;
-    padding-left: 60px;
-    justify-content:space-between;
-    padding-right: 60px;
-    color: rgb(102, 100, 100);
 }
 .button-login button{
     width: 300px;
@@ -120,41 +113,22 @@ form {
     transition: ease-in-out;
     transform: translateY(-4px);
 }
-.link {
+.footer{
     display: flex;
     justify-content: center;
+    margin-top: 30px;
+    font-size: 18px;
 }
-.link-fb a{
-    background: #3B5998;
-    color: white;
-    padding: 10px;
-    font-size: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    height: 35px;
-    width: 35px;
-    border-radius: 50%;
-}
-.link-gg a{
-    background: rgb(219, 25, 25);
-    color: white;
-    padding: 10px;
-    font-size: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    margin: 5px 5px;
-    height: 35px;
-    width: 35px;
-    border-radius: 50%;
-}
-.input-create {
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
+#top-up {
+    font-size: 3rem;
+    cursor: pointer;
+    position: fixed;
+    z-index: 9999;
+    color:#004993;
+    bottom: 20px;
+    right: 15px;
+    display: none;
+    }
+    #top-up:hover {
+    color: #333
+    }

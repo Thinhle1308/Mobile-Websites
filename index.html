@@ -7,8 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THV Mobile - Nơi mua sắm điện thoại, laptop, phụ kiện uy tín giá rẻ.</title>
     <link rel="shortcut icon" href="./src/img/logo-removebg-preview.png">
+  
     <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./src/style/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -24,7 +27,7 @@
         crossorigin="anonymous"></script>
     <!-- icon facebook -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./src/style/style.css">
+
     <!-- slick -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <!-- search -->
@@ -56,41 +59,45 @@
                 <!-- icon -->
                 <div class="heading-right">
                     <div class="heading-mobile" title="Điện Thoại">
-                        <i class="glyphicon glyphicon-phone"></i>
-                        <p>MOBILE</p>
+                        <a href="#mobile">  <i class="glyphicon glyphicon-phone"></i>  
+                           <p>MOBILE</p> 
+                        </a>
                     </div>
                     <div class="heading-tablet" title="Máy tính bảng">
-                        <i class="fas fa-tablet-alt"></i>
-                        <p>TABLET</p>
+                        <a href="#tablet"><i class="fas fa-tablet-alt"></i>
+                        <p> TABLET</p></a>
                     </div>
                     <div class="heading-pc">
-                        <i class="fas fa-laptop	" title="Máy tính"></i>
-                        <p>LAPTOP</p>
+                        <a href="#laptop"><i class="fas fa-laptop	" title="Máy tính"></i>
+                        <p> LAPTOP</p></a>
                     </div>
                     <div class="heading-accessory" title="Phụ kiện">
-                        <i class="fas fa-headphones	"></i>
-                        <p>ACCESSORY</p>
-
+                        <a href="#accessory"><i class="fas fa-headphones	"></i>
+                       <p> ACCESSORY</p></a>
                     </div>
+                    <!-- <ul class="accessory-modal">
+                        <li> Phụ kiện iphone</li>
+                        <li>Sạc dự phòng</li>
+                        <li>Sạc</li>
+                        <li>Cáp sạc</li>
+                        <li>Tai nghe</li>
+                        <li>Loa</li>
+                        <li>Thiết bị thông minh</li>
+                    </ul> -->
                     <div class="heading-shopping" title="Giỏ hàng">
-                        <i class="fas fa-shopping-cart"></i>
-                        <p>CART</p>
+                        <a href="#"><i class="fas fa-shopping-cart"></i>
+                      <p> CART</p></a>
                     </div>
                     <div class="user" title="Người dùng">
-                        <i class="far fa-user-circle"></i>
-                        <p>USER</p>
-                      
+                        <a href="#"><i class="far fa-user-circle"></i>
+                        <p>USER</p> </a>
                     </div>
-                    <ul class="user-moder">
+                    <ul class="user-modal">
                         <li>
-                           <a href="./src/Dashboard/login.html">Đăng nhập</a></li>
-                        <li><a href="">Đăng ký</a></li>
-
-                     </ul>
-                  
-
-
-
+                            <a href="./src/Dashboard/login.html">Đăng nhập</a>
+                        </li>
+                        <li><a href="./src/Dashboard/Register.html">Đăng ký</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -138,7 +145,7 @@
         </div>
         <!-- ĐIỆN THOẠI -->
         <!-- Hãng -->
-        <div class="category">
+        <div class="category" id="mobile">
             <h1>MOBILE</h1>
             <h2 class="category-heading">Category:</h2>
             <ul class="category-list">
@@ -534,7 +541,7 @@
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         <!-- LAPTOP -->
         <!-- Hãng -->
-        <div class="category-laptop">
+        <div class="category-laptop" id="laptop">
             <h1>LAPTOP</h1>
             <h2 class="category-heading-laptop">Category:</h2>
             <ul class="category-item-laptop">
@@ -859,7 +866,7 @@
         <script src="./src/JS/slick2.js"></script>
         <!-- Tablet -->
         <!-- Hãng -->
-        <div class="category-laptop">
+        <div class="category-laptop" id="tablet">
             <h1>TABLET</h1>
             <h2 class="category-heading-laptop">Category:</h2>
             <ul class="category-item-laptop">
@@ -1108,7 +1115,7 @@
         </div>
         <!-- Phụ kiện -->
         <!-- Hãng -->
-        <div class="category-laptop">
+        <div class="category-laptop" id="accessory">
             <div>
                 <h1>ACCESSORY</h1>
                 <h2 class="category-heading-laptop">Category:</h2>
@@ -1752,6 +1759,28 @@
     </footer>
 </body>
 
+<!-- import icon font awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+<!-- Import thư viện JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+// kéo xuống khoảng cách 500px thì xuất hiện nút Top-up
+var offset = 500;
+// thời gian di trượt 0.75s ( 1000 = 1s )
+var duration = 750;
+$(function(){
+$(window).scroll(function () {
+if ($(this).scrollTop() > offset)
+$('#top-up').fadeIn(duration);else
+$('#top-up').fadeOut(duration);
+});
+$('#top-up').click(function () {
+$('body,html').animate({scrollTop: 0}, duration);
+});
+});
+</script>
+<div title="Về đầu trang" id="top-up">
+<i class="fas fa-arrow-circle-up"></i></div>
 </html>
 
-<script src="./src/JS/modalAuth.js"></script>
+<script src="./src/JS/modalAuth.js"></script>-->
